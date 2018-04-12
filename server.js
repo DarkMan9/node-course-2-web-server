@@ -74,6 +74,6 @@ app.get('/about',(req,res) => {
 });
 
 app.listen(port, () => {
-    console.log('server is listening @localhost:3000');
+    console.log(`server is listening @localhost:${port}`);
 
 });

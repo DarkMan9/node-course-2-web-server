@@ -4,7 +4,8 @@
   "description": "complete Nodejs project-2",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Mandar Kulkarni",
   "license": "ISC",
