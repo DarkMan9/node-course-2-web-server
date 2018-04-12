@@ -54,6 +54,16 @@ app.use((req,res,next) => {
 //     });
 // });
 
+app.get('/',(req,res) => {
+
+    res.render('home.hbs',{
+        pageTitle:'Home Page',
+        currentYear:new Date().getFullYear(),
+        welcomeText:'welcome to Nodejs'
+    });
+});
+
+
 app.get('/home',(req,res) => {
     res.render('home.hbs',{
         pageTitle:'Home Page',
